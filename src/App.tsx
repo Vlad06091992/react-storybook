@@ -21,7 +21,7 @@ function App() {
             <ControlledOnOff on={on} setOn={setOn}/> {on.toString()}
             <Accordion
                 items={items}
-                titleBackground={"#963838"}
+                titleBackground={"#583322"}
                 title={"Menu"}
                 collapsed={accordionCollapsed}
                 onClick={x=>x}
